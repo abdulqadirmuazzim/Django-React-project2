@@ -9,3 +9,8 @@ endpoints:
       networkVisibilities:
         - Project
         - Public
+        
+dependencies:
+    connectionReferences:
+    - name: Backend
+      resourceRef: service:/django-react-project2/edupath/v1/be2b5/PROJECT
